@@ -7,14 +7,15 @@ from simple_airsim.api.manager import Manager
 
 
 def loop(drone: Drone):
-    drone.takeoff(True)
-    while True:
-        for i in range(4):
-            drone.move_by(1, 0, 0, False)
-            time.sleep(2)
-            drone.turn_by(0, 0, 90, False)
-            time.sleep(2)
-        time.sleep(0.1)
+    # drone.takeoff(True)
+    # while True:
+    #     for i in range(4):
+    #         drone.move_by(1, 0, 0, False)
+    #         time.sleep(2)
+    #         drone.turn_by(0, 0, 90, False)
+    #         time.sleep(2)
+    #     time.sleep(0.1)
+    pass
 
 
 if __name__ == '__main__':
